@@ -1,0 +1,157 @@
+@import "bourbon";
+@import "vars.scss";
+
+*::-webkit-input-placeholder{
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder{
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder{
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder{
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid{
+    color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid{
+    color: #666;
+}
+
+//Custom Styles Here
+
+footer{
+    background-color: #2b1501;
+    background-image: url("../img/footer-bg.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 266px;
+}
+
+.home-menu{
+    margin-top: 145px;
+    font-family:'CyrillicCooper', arial;
+    li{
+        float: left;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: 59px 70px;
+        background-size: 55%;
+        vertical-align: top;
+        border-radius: 350px;
+        margin-left: 5px;
+        margin-right: 6px;
+        margin-bottom: 65px;
+    }
+    a{
+        min-width: 251px;
+        width: 100%;
+        font-size:35px;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 15px;
+        min-height: 266px;
+        max-height: 266px;
+        text-shadow: 0px 0px 10px white, 0em 0em 0em white;
+        &:hover{
+            text-decoration: none;
+        }
+
+    }
+    span{
+        display: block;
+        text-align: center;
+        font-size:31px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 7px;
+        left: 54px;
+    }
+}
+
+.hunt{
+    border: 5px solid #fcb040;
+    background-color: rgba(257,176,64, 0.5);
+    a{
+        color:#005e50;
+
+    }
+}
+.mushrooms{
+    border: 5px solid #10352e;
+    background-color: rgba(255,255,255, 0.5);
+    a,span{
+        color: #f2780c;
+    }
+}
+body .camp{
+    border: 5px solid #626d73;
+    background-size: 80%;
+    background-position: 26px 91px;
+    a{
+        padding-top: 35px;
+    }
+    a,span{
+        color: #005e50;
+
+    }
+}
+body .fish{
+    border: 5px solid #626d73;
+    background-size: 50%;
+    background-position: center;
+    a{
+        min-height: 250px;
+        padding-top: 15px;
+    }
+    a,span{
+        color: #005e50;
+
+    }
+}
+body .ud-rub{
+    border: 5px solid #10352e;
+    background-size: 60%;
+    background-position: center;
+    a,span{
+        color:#f2780c ;
+    }
+    span{
+        bottom: 21px;
+        left: 41px;
+    }
+}
+body .daiv{
+    border: 5px solid #745628;
+    background-size: 60%;
+    background-position: center;
+    a{
+        font-size: 25px;
+    }
+    a,span{
+        color:#f2780c ;
+
+    }
+    span{
+        bottom: 21px;
+        left: 73px;
+    }
+}
+//ALWAYS END
+@import "media.scss";
+@import "sketches.scss";

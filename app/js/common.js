@@ -14,7 +14,7 @@ $(function() {
 
 	// fancybox
 	$("a.modal").fancybox();
-});
+
 
 //Форма отправки 2.0
 $(function() {
@@ -112,4 +112,25 @@ $(function() {
 		}
 		return false;
 	})
+});
+
+
+
+
+
+
+
+
+
+	var autoplaySlider = $('#autoplay').lightSlider({
+		auto:true,
+		loop:true,
+		pauseOnHover: true,
+		onBeforeSlide: function (el) {
+			$('#current').text(el.getCurrentSlideCount());
+		}
+	});
+	$('#total').text(autoplaySlider.getTotalSlideCount());
+
+
 });

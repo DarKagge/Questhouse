@@ -1,3 +1,4 @@
+@import url(../libs/lightslider/dist/css/lightslider.min.css);
 body {
   font-size: 16px;
   min-width: 320px;
@@ -72,7 +73,8 @@ header {
   border: 2px solid #626d73;
   margin-top: 20px;
   max-width: 330px;
-  min-height: 250px; }
+  min-height: 250px;
+  margin-bottom: 25px; }
 
 .calendar {
   display: inline-block;
@@ -87,6 +89,28 @@ header {
     margin: 15px; }
     .calendar a:hover {
       text-decoration: none; }
+
+.telefon {
+  font-size: 22px;
+  position: relative;
+  margin-right: 5px;
+  color: #fff; }
+  .telefon span {
+    padding-left: 10px;
+    padding-right: 10px; }
+  .telefon p {
+    padding-top: 5px;
+    text-transform: uppercase; }
+  .telefon:after {
+    position: absolute;
+    content: '';
+    left: -48px;
+    top: 0;
+    width: 44px;
+    height: 42px;
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    background-size: 100%; }
 
 .news-title {
   font-family: Arial;

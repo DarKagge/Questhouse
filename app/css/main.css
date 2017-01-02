@@ -39,27 +39,21 @@ footer {
     float: left;
     position: relative;
     background-repeat: no-repeat;
-    background-position: 59px 70px;
-    background-size: 55%;
+    background-size: 100%;
     vertical-align: top;
-    -webkit-border-radius: 350px;
-    border-radius: 350px;
+    -webkit-border-radius: 550px;
+    border-radius: 550px;
     margin-left: 5px;
     margin-right: 6px;
     margin-bottom: 65px; }
   .home-menu a {
     min-width: 251px;
     width: 100%;
-    font-size: 35px;
     display: block;
     text-align: center;
-    text-transform: uppercase;
-    padding-top: 15px;
-    min-height: 266px;
+    min-height: 249px;
     max-height: 266px;
     text-shadow: 0px 0px 10px white, 0em 0em 0em white; }
-    .home-menu a:hover {
-      text-decoration: none; }
   .home-menu span {
     display: block;
     text-align: center;
@@ -70,60 +64,13 @@ footer {
     left: 54px; }
 
 .hunt {
-  border: 5px solid #fcb040;
   background-color: rgba(255, 176, 64, 0.5); }
-  .hunt a {
-    color: #005e50; }
 
-.mushrooms {
-  border: 5px solid #10352e;
-  background-color: rgba(255, 255, 255, 0.5); }
-  .mushrooms a, .mushrooms span {
-    color: #f2780c; }
-
-body .camp {
-  border: 5px solid #626d73;
-  background-size: 80%;
-  background-position: 26px 91px; }
-  body .camp a {
-    padding-top: 35px; }
-  body .camp a, body .camp span {
-    color: #005e50; }
+body .mushrooms {
+  background-size: 109%; }
 
 body .fish {
-  border: 5px solid #626d73;
-  background-size: 50%;
-  background-position: center; }
-  body .fish a {
-    min-height: 250px;
-    padding-top: 15px; }
-  body .fish a, body .fish span {
-    color: #005e50; }
-  body .fish span {
-    left: 37px;
-    font-size: 28px; }
-
-body .ud-rub {
-  border: 5px solid #10352e;
-  background-size: 60%;
-  background-position: center; }
-  body .ud-rub a, body .ud-rub span {
-    color: #f2780c; }
-  body .ud-rub span {
-    bottom: 21px;
-    left: 41px; }
-
-body .daiv {
-  border: 5px solid #745628;
-  background-size: 60%;
-  background-position: center; }
-  body .daiv a {
-    font-size: 25px; }
-  body .daiv a, body .daiv span {
-    color: #f2780c; }
-  body .daiv span {
-    bottom: 21px;
-    left: 73px; }
+  background-position: center left; }
 
 .footer-menu ul {
   margin-right: 50px;

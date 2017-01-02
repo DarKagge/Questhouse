@@ -45,7 +45,8 @@ footer {
     border-radius: 550px;
     margin-left: 5px;
     margin-right: 6px;
-    margin-bottom: 65px; }
+    margin-bottom: 65px;
+    background-position: center left; }
   .home-menu a {
     min-width: 251px;
     width: 100%;

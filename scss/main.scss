@@ -42,6 +42,7 @@ footer{
     min-height: 266px;
 }
 .main-container{
+    position: relative;
     margin-top: 145px;
 }
 .home-menu{
@@ -155,6 +156,7 @@ body .daiv{
 }
 .category{
     background-color: #d9d9d9;
+    padding: 10px;
     p{
         padding: 5px 5px 28px 5px;
     }
@@ -245,6 +247,7 @@ body .lSAction>.lSNext{
 }
 .buttons{
     padding: 15px;
+    display: inline;
     a{
         background-color: #005e50;
         color: #fff;
@@ -254,6 +257,123 @@ body .lSAction>.lSNext{
             text-decoration: none;
             color: #f2780c;
         }
+    }
+}
+
+
+
+.bredcrambs{
+    position: absolute;
+    top: -35px;
+    left: 0;
+    li{
+        float: left;
+    }
+    a{
+        color: #fff;
+        padding-right: 15px;
+        font-size:16px;
+        position: relative;
+        &:after{
+            content: '';
+            position: absolute;
+            right: 6px;
+            top: 3px;
+            width: 2px;
+            height: 81%;
+            background-color: #fff;
+            transform: skewX(-13deg);
+        }
+        &:hover{
+            color: #fcb040;
+        }
+        &:active{
+            color: #fcb040;
+        }
+    }
+}
+.in-news{
+    .data{
+        color: #000;
+    }
+    padding: 10px;
+    h2{
+        font-weight:bold;
+        font-size:27px;
+    }
+    img{
+        max-width: 400px;
+        height: 275px;
+        float: right;
+    }
+}
+.reviews{
+    .data{
+        color: #000;
+    }
+    h2{
+        font-weight:bold;
+        font-size:25px;
+        color: #1a1a18;
+    }
+}
+
+body .forma{
+    display: inline-block;
+    max-width: 470px;
+    input{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 8px;
+        @include placeholder{
+            color: #d9dada;
+            padding-left: 15px;
+        }
+    }
+    h3{
+        color: #10453D;
+        text-transform: uppercase;
+        font-weight:bold;
+        font-size:20px;
+        margin-bottom: 5px;
+    }
+    textarea{
+        #placeholder{
+            display: block !important;
+        }
+        width: 100%;
+        padding-left: 15px;
+        @include placeholder{
+            color: #d9dada;
+            display: block !important;
+        }
+    }
+    button{
+        background-color: #f2780c;
+        color: #fff;
+        width: 100%;
+        margin-bottom: 10px;
+        &:hover{
+            color: #10453d;
+        }
+    }
+}
+.capcha{
+    background-color: #fff;
+    margin-top: 38px;
+    min-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.title{
+    h2{
+        font-size: 35px;
+        color: #f2780c;
+        text-transform: uppercase;
+        font-weight:bold;
+        font-family:'CyrillicCooper', arial;
+        text-shadow: 0px 0px 10px #2b1501, 0em 0em 0em #2b1501;
     }
 }
 //ALWAYS END

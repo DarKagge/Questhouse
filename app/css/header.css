@@ -4,7 +4,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  font-family: "RobotoRegular", sans-serif;
+  font-family: "Arial", sans-serif;
   overflow-x: hidden;
   background-color: #fff; }
 
@@ -176,7 +176,7 @@ header {
     font-size: 16px;
     color: #fff;
     padding-left: 10px;
-    padding-right: 20px; }
+    padding-right: 16px; }
     .top-menu a:hover {
       color: #005e50;
       text-decoration: none; }

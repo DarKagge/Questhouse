@@ -376,6 +376,61 @@ body .forma{
         text-shadow: 0px 0px 10px #2b1501, 0em 0em 0em #2b1501;
     }
 }
+
+.foto{
+    li{
+        float: left;
+    }
+    a{
+        display: block;
+        position: relative;
+        max-width: 250px;
+        margin-right: 26px;
+        margin-bottom: 30px;
+        font-weight:bold;
+        font-size: 18px;
+        color: #fff;
+        vertical-align: top;
+        &:hover{
+            color: #f2780c;
+            text-decoration: none;
+        }
+        &:hover:after{
+            display: block;
+        }
+        &:after{
+            position: absolute;
+            left: 0;
+            top: 29px;
+            content: '';
+            background-color: rgba(255, 255, 255, 0.4);
+            width: 250px;
+            height: 190px;
+            display: none;
+        }
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        border: 5px solid #ceeafb;
+
+    }
+}
+.in-foto{
+    a{
+        img{
+            border: none;
+        }
+        &:hover:after{
+            display: none;
+        }
+    }
+}
+.bredcrambs-foto{
+    font-size:25px;
+    color: #fff;
+    text-transform: uppercase;
+}
 //ALWAYS END
 @import "media.scss";
 @import "sketches.scss";

@@ -521,7 +521,8 @@ body .forma1 {
     color: #ceeafb; }
 
 .price-item {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  padding-left: 8px; }
   .price-item h2 {
     font-weight: bold;
     text-transform: uppercase; }

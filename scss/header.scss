@@ -12,6 +12,7 @@ body{
 	font-family: "Arial", sans-serif;
 	overflow-x: hidden;
 	background-color: #fff;
+	color: #1a1a18;
 }
 .inner{
 	max-width: 3508px;
@@ -169,7 +170,7 @@ header{
 .top-menu{
 	margin-top: 20px;
 	text-align: center;
-	ul:last-child{
+	ul{
 		display: inline-block;
 	}
 	li{

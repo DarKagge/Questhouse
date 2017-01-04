@@ -7,7 +7,8 @@ body {
   line-height: 1.6;
   font-family: "Arial", sans-serif;
   overflow-x: hidden;
-  background-color: #fff; }
+  background-color: #fff;
+  color: #1a1a18; }
 
 .inner {
   max-width: 3508px;
@@ -138,7 +139,7 @@ header {
 .top-menu {
   margin-top: 20px;
   text-align: center; }
-  .top-menu ul:last-child {
+  .top-menu ul {
     display: inline-block; }
   .top-menu li {
     float: left;

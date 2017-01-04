@@ -130,7 +130,8 @@ $(function() {
 			$('#current').text(el.getCurrentSlideCount());
 		}
 	});
-	$('#total').text(autoplaySlider.getTotalSlideCount());
+
+
 
 
 
